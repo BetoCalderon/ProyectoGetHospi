@@ -24,12 +24,12 @@ namespace ProyectoGetHospi.Vista
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            btnSelecionar.Enabled = true;
-            btnGuardarMed.Enabled = false;
-            médicoBindingSource.EndEdit();
+            btnSeleccionar.Enabled = true;
+            btnGuardar.Enabled = false;
+            archivoBindingSource.EndEdit();
             Médico M = new Médico();
-            M = (Médico)médicoBindingSource.Current;
-            cMedico.Actualizar(M);
+            M = (Médico)archivoBindingSource.Current;
+            //CMedicos.Actualizar(M);
             MessageBox.Show("Se han actualizado los datos del medico");
             this.Close();
         }
