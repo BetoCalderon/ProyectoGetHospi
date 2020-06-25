@@ -47,5 +47,15 @@ namespace ProyectoGetHospi.Vista
             btnNuevoP.Enabled = true;
             MessageBox.Show("Se ha registrado al nuevo paciente");
         }
+
+        private void idPacienteTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fechaNcimientoLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
