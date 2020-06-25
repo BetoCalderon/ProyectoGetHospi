@@ -34,9 +34,6 @@ namespace ProyectoGetHospi.Vista
             this.Close();
         }
 
-        private void btnSeleccionar_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

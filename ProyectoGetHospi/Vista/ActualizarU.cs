@@ -49,9 +49,5 @@ namespace ProyectoGetHospi.Vista
             usuariosBindingSource.DataSource = cUsuarios.Listado();
         }
 
-        private void claveLabel_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

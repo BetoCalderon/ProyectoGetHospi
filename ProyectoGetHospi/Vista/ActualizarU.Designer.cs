@@ -37,9 +37,9 @@
             System.Windows.Forms.Label usuarioLabel;
             System.Windows.Forms.Label direcciónLabel;
             System.Windows.Forms.Label idUsuarioLabel;
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ActualizarU));
             this.dgvUsuariosA = new System.Windows.Forms.DataGridView();
             this.Dirección = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -78,7 +78,6 @@
             claveLabel.Size = new System.Drawing.Size(58, 20);
             claveLabel.TabIndex = 16;
             claveLabel.Text = "Clave:";
-            claveLabel.Click += new System.EventHandler(this.claveLabel_Click);
             // 
             // dUILabel
             // 
@@ -160,40 +159,40 @@
             this.dgvUsuariosA.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvUsuariosA.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgvUsuariosA.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(149)))), ((int)(((byte)(11)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvUsuariosA.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(149)))), ((int)(((byte)(11)))));
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvUsuariosA.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
             this.dgvUsuariosA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvUsuariosA.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Dirección});
             this.dgvUsuariosA.Cursor = System.Windows.Forms.Cursors.No;
             this.dgvUsuariosA.DataSource = this.usuariosBindingSource;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(220)))), ((int)(((byte)(111)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvUsuariosA.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(220)))), ((int)(((byte)(111)))));
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvUsuariosA.DefaultCellStyle = dataGridViewCellStyle26;
             this.dgvUsuariosA.EnableHeadersVisualStyles = false;
             this.dgvUsuariosA.Location = new System.Drawing.Point(16, 70);
             this.dgvUsuariosA.Name = "dgvUsuariosA";
             this.dgvUsuariosA.ReadOnly = true;
             this.dgvUsuariosA.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvUsuariosA.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvUsuariosA.RowHeadersDefaultCellStyle = dataGridViewCellStyle27;
             this.dgvUsuariosA.Size = new System.Drawing.Size(463, 281);
             this.dgvUsuariosA.TabIndex = 16;
             // 
@@ -212,12 +211,12 @@
             this.groupBox1.Controls.Add(this.claveTextBox);
             this.groupBox1.Controls.Add(direcciónLabel);
             this.groupBox1.Controls.Add(this.direcciónTextBox);
-            this.groupBox1.Controls.Add(dUILabel);
             this.groupBox1.Controls.Add(this.dUITextBox);
+            this.groupBox1.Controls.Add(this.nITTextBox);
+            this.groupBox1.Controls.Add(dUILabel);
             this.groupBox1.Controls.Add(fechaLabel);
             this.groupBox1.Controls.Add(this.fechaDateTimePicker);
             this.groupBox1.Controls.Add(nITLabel);
-            this.groupBox1.Controls.Add(this.nITTextBox);
             this.groupBox1.Controls.Add(nombreLabel);
             this.groupBox1.Controls.Add(this.nombreTextBox);
             this.groupBox1.Controls.Add(usuarioLabel);
@@ -233,7 +232,7 @@
             this.idUsuarioTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.idUsuarioTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuariosBindingSource, "IdUsuario", true));
             this.idUsuarioTextBox.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idUsuarioTextBox.Location = new System.Drawing.Point(106, 211);
+            this.idUsuarioTextBox.Location = new System.Drawing.Point(106, 29);
             this.idUsuarioTextBox.Name = "idUsuarioTextBox";
             this.idUsuarioTextBox.Size = new System.Drawing.Size(219, 19);
             this.idUsuarioTextBox.TabIndex = 30;
@@ -243,7 +242,7 @@
             this.claveTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.claveTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuariosBindingSource, "Clave", true));
             this.claveTextBox.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.claveTextBox.Location = new System.Drawing.Point(106, 29);
+            this.claveTextBox.Location = new System.Drawing.Point(106, 210);
             this.claveTextBox.Name = "claveTextBox";
             this.claveTextBox.PasswordChar = '*';
             this.claveTextBox.Size = new System.Drawing.Size(219, 19);
@@ -254,7 +253,7 @@
             this.direcciónTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.direcciónTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuariosBindingSource, "Dirección", true));
             this.direcciónTextBox.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.direcciónTextBox.Location = new System.Drawing.Point(106, 55);
+            this.direcciónTextBox.Location = new System.Drawing.Point(106, 82);
             this.direcciónTextBox.Name = "direcciónTextBox";
             this.direcciónTextBox.Size = new System.Drawing.Size(219, 19);
             this.direcciónTextBox.TabIndex = 19;
@@ -264,7 +263,7 @@
             this.dUITextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dUITextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuariosBindingSource, "DUI", true));
             this.dUITextBox.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dUITextBox.Location = new System.Drawing.Point(106, 81);
+            this.dUITextBox.Location = new System.Drawing.Point(106, 132);
             this.dUITextBox.Name = "dUITextBox";
             this.dUITextBox.Size = new System.Drawing.Size(219, 19);
             this.dUITextBox.TabIndex = 21;
@@ -285,7 +284,7 @@
             this.nITTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nITTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuariosBindingSource, "NIT", true));
             this.nITTextBox.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nITTextBox.Location = new System.Drawing.Point(106, 133);
+            this.nITTextBox.Location = new System.Drawing.Point(106, 159);
             this.nITTextBox.Name = "nITTextBox";
             this.nITTextBox.Size = new System.Drawing.Size(219, 19);
             this.nITTextBox.TabIndex = 25;
@@ -295,7 +294,7 @@
             this.nombreTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nombreTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuariosBindingSource, "Nombre", true));
             this.nombreTextBox.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nombreTextBox.Location = new System.Drawing.Point(106, 159);
+            this.nombreTextBox.Location = new System.Drawing.Point(106, 54);
             this.nombreTextBox.Name = "nombreTextBox";
             this.nombreTextBox.Size = new System.Drawing.Size(219, 19);
             this.nombreTextBox.TabIndex = 27;

@@ -48,5 +48,30 @@ namespace ProyectoGetHospi.Vista
             btnGuardarMed.Enabled = true;
             btnNuevoMed.Enabled = false;
         }
+
+        private void cedulaMedicoTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nombreTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void direccionTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dUITextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void telefonoTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
